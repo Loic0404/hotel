@@ -12,6 +12,8 @@
 
 @mixin texte {
     font: {
-        family: 
+        family: $policeClassique
+        size: $taillePoliceTexte
     };
+    color: $couleurTexte;
 }
