@@ -1,3 +1,9 @@
+// importation des Utils
+
+@import url(Utils/_varaible.scss);
+@import url(Utils/_mixins.scss);
+@import url(Utils/_fonction.scss);
+
 // Importation des pages
 
 @import url(Pages/_accueil.scss);
@@ -9,11 +15,7 @@
 @import url(Layout/_header.scss);
 @import url(Layout/_header.scss);
 
-// importation des Utils
 
-@import url(Utils/_fonction.scss);
-@import url(Utils/_mixins.scss);
-@import url(Utils/_varaible.scss);
 
 // Importation des polices d'écriture
 

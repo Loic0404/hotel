@@ -1,0 +1,17 @@
+// Mixin pour les petits titre en blanc
+
+@mixin petitTitre {
+    font: {
+        family: $policeTitre;
+        size: $taillePoliceTitre;
+    };
+    color: $titreBlanc;
+}
+
+// Mixin pour les textes
+
+@mixin texte {
+    font: {
+        family: 
+    };
+}
