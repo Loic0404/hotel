@@ -12,6 +12,41 @@
 
 @mixin texte {
     font: {
-        family: 
+        family: $policeClassique;
+        size: $taillePoliceTexte;
     };
+    color: $couleurTexte ;
 }
+
+// Mixins pour les backgrounds 
+
+@mixin backgroundMain {
+   background-main {
+    background-color : $backgroundColorMain;
+   } 
+}
+
+@mixin backgroundSectionChambre {
+    background-chambre {
+    background-color: $backgroundColorSectionChambre;
+    }
+}
+
+@mixin backgroundFooter {
+    background-footer {
+    background-color: $backgroundColorFooter;
+    }
+}
+
+@mixin backgroundNavBar {
+    background-navbar {
+    background-color: $backgroundColorNav;
+    }
+}
+
+@mixin backgroundOptions {
+    background-options {
+        background-color: $backgroundColorOptions;
+    }
+}
+
