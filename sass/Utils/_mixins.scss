@@ -10,7 +10,7 @@
 
 // Mixin pour les textes
 
-@mixin texte {
+@mixin texteGris {
     font: {
         family: $policeClassique;
         size: $taillePoliceTexte;
@@ -50,3 +50,12 @@
     }
 }
 
+   
+
+@mixin texteOrange {
+    font: {
+        family: $policeClassique;
+        size : $taillePoliceTexte;
+    };
+    color: $texteOrange;
+}
