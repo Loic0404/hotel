@@ -1,0 +1,73 @@
+.presentation {
+    height: 600px;
+    display: flex;
+    margin: 30px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation img {
+    width: 50px;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.images img {
+    width: 200px;
+    height: 300px;
+}
+
+.chambres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+.box1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.box1 a img {
+    width: 300px;   
+}
+
+.box2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.box2 a img {
+    width: 470px; 
+}
+
+.activiter {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 460px;
+}
+
+.activiter img {
+    width: 500px;
+}
+
+.activiter a {
+    border: solid;
+    padding: 15px;
+}
