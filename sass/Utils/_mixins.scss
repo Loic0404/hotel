@@ -18,6 +18,14 @@
     color: $couleurTexte ;
 }
 
+@mixin texteOrange {
+    font: {
+        family: $policeClassique;
+        size : $taillePoliceTexte;
+    };
+    color: $texteOrange;
+}
+
 // Mixins pour les backgrounds 
 
 @mixin backgroundMain {
@@ -52,10 +60,3 @@
 
    
 
-@mixin texteOrange {
-    font: {
-        family: $policeClassique;
-        size : $taillePoliceTexte;
-    };
-    color: $texteOrange;
-}
