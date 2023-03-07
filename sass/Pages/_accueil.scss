@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+h2 {
+    @mixin petitTitre;
+}
+
 .presentation img {
     width: 50px;
 }
@@ -15,6 +19,10 @@
     display: flex;
     flex-direction: column;
     width: 500px;
+}
+
+.texte p {
+    @mixin texteOrange;
 }
 
 .images {
@@ -57,17 +65,25 @@
 
 .activiter {
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 470px 470px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 30px;
     margin-left: 460px;
 }
 
 .activiter img {
-    width: 500px;
+    width: 470px;
 }
 
 .activiter a {
     border: solid;
     padding: 15px;
+}
+
+.para {
+    margin-bottom: 30px;
+}
+
+.texteChambres {
+    margin-left: 430px;
 }
