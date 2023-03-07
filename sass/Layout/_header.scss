@@ -1,0 +1,47 @@
+html {
+    background-color: #222222;
+    color: #ffffff;
+    line-height: 27px;
+    margin-left: 25%;
+}
+
+  .navbar {
+    background-color: #1B1B1B;
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: rgb(201, 196, 196);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    color: $texteOrange;
+  }
+
+  h1 {
+    color: $texteOrange ;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+
+  .haut{
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+  }
