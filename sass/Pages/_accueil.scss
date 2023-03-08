@@ -40,12 +40,8 @@
 /* CSS pour la présentation des chambres */
 
 .chambres {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
     background-color: #272523;
-    height: 1500px;
+    height: 1000px;
     gap: 30px;
 }
 
@@ -54,13 +50,17 @@
 .texteChambres {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    color: white;
+    margin-left: 450px;
 }
 
 .boxChambre {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: space-between;
+    justify-content: space-around;
+    width: 700px;
+    margin-left: 450px;
 }
 
 /* Mise en forme de la box1 avec les 3 premières photos */
@@ -119,13 +119,13 @@
 
 /* Mise en forme de la box2 avec les 2 dernières photos */
 .image4 {
-    width: 470px;
+    width: 490px;
 }
 
 .box2 {
     display: flex;
     justify-content: space-between ;
-    width: 500px;
+    width: 510px;
     margin-top: 420px;
     background-color: #272523;
 }
@@ -184,6 +184,7 @@
 
 .restaurant {
     display: flex;
+    align-items: center;
 }
 
 .restaurant img {
@@ -192,7 +193,6 @@
 
 .restaurantTexte {
     width: 500px;
-    
 }
 
 .restaurantTexte p , .restaurantTexte h3 {
@@ -201,6 +201,7 @@
 
 .bienEtre {
     display: flex;
+    align-items: center;
 }
 
 .bienEtre img {
@@ -218,6 +219,7 @@
 
 .fitness {
     display: flex;
+    align-items: center;
 }
 
 .fitness img {
@@ -234,6 +236,7 @@
 
 .centreAqua {
     display: flex;
+    align-items: center;
 }
 
 .centreAqua img {
