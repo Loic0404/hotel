@@ -1,4 +1,4 @@
-footer {
+.basdepage {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,12 +82,16 @@ footer {
     color: #ffffff;
 }
 
-.footerdeux {
+footer {
     background-color: #1f1e1e;
     display: flex;
     justify-content: center;
     margin-bottom: 0%;
     margin-right: -0.5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 4%;
+    padding-bottom: 0.5%;
+
+    span {
+        color: #646161;
+     }
 }
