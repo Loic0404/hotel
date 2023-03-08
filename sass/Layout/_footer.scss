@@ -1,57 +1,55 @@
-// footer {
-//     background-color: #222222;
-//     width: 100%;
-//     padding-top: 15px;
-//     padding-bottom: 15px;
-
-//     p {
-//         text-align: center;
-//         color: #ffffff;
-
-//         span {
-//             font-weight: bold;
-//             font-size: small;
-//             color: rgb(201, 196, 196);
-//         }
-//     }
-// }
-
-
-html {
-    background-color: #222222;
-    color: #ffffff;
-    line-height: 27px;
-}
-
-body p {
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-span {
-    color: rgb(201, 196, 196);
-}
-
-.tel {
-    font-size: x-large;
-    text-decoration: none;
-}
-
-.contenair {
+footer {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.propos {
-    width: 30%
-}
-
+.propos,
 .contact {
-    width: 30%;
+    font-size: 25px;
 }
 
-a {
+.footerGauche {
+    flex-basis: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.footerDroite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 30%;
+}
+
+.telBas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.telBas .flaticon-call {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.telBas .numBas {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.footerGauche,
+.footerDroite {
+    font-size: 15px;
+}
+
+.mailBas {
     color: #ffffff;
     text-decoration-color: #AB854F;
     text-decoration-skip-ink: none;
@@ -59,17 +57,37 @@ a {
     text-underline-offset: 6px;
 }
 
-
-.footerdeux {
-    background-color: #1E1E1E;
-    width: 100%;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    text-align: center;
+.emoji a {
+    font-size: 25px;
+    text-decoration: none;
 }
 
-.text {
-    font-weight: bold;
-    font-size: small;
-    color: rgb(201, 196, 196);
+.ti-instagram {
+    color: #ffffff;
+}
+
+.ti-twitter-alt {
+    color: #ffffff;
+}
+
+.flaticon-youtube {
+    color: #ffffff;
+}
+
+.ti-facebook {
+    color: #ffffff;
+}
+
+.ti-pinterest-alt {
+    color: #ffffff;
+}
+
+.footerdeux {
+    background-color: #1f1e1e;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+    margin-right: -0.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }

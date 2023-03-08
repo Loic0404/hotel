@@ -1,0 +1,59 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 70%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.firstLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 20%;
+}
+
+.nom {
+    width: 45%;
+}
+
+.mail {
+    width: 45%;
+}
+
+.scndLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 20%;
+}
+
+.num {
+    width: 45%;
+}
+
+.sujet {
+    width: 45%;
+}
+
+textarea {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 0%;
+    font-size: 15px;
+}
+
+input,
+textarea {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(201, 196, 196, 0.5);
+    background-color: #222222;
+    text-decoration: none;
+    padding-bottom: 1px;
+    color: rgb(201, 196, 196);
+}
+

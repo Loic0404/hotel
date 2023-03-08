@@ -1,47 +1,95 @@
-html {
-    background-color: #222222;
-    color: #ffffff;
-    line-height: 27px;
-    margin-left: 25%;
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #1B1B1B;
+  line-height: 100%;
+  flex-basis: 20%;
+  /* width: 270px; */
+  /* position: absolute; */
+  margin-top: 0;
+  margin-left: 0;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
-  .navbar {
-    background-color: #1B1B1B;
-    height: 100%;
-    width: 350px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar li a {
-    display: block;
-    color: rgb(201, 196, 196);
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  .navbar li a:hover {
-    color: $texteOrange;
-  }
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  h1 {
-    color: $texteOrange ;
-    text-align: center;
-    font-size: 50px;
-    letter-spacing: 5px;
-  }
+.nav li a {
+  display: flex;
+  color: rgb(201, 196, 196);
+  padding: 8px 16px;
+  text-decoration: none;
+}
 
-  .haut{
-    text-align: center;
-    word-spacing: 5px;
-    letter-spacing: 5px;
-  }
+.nav li a:hover {
+  color: #AB854F;
+}
+
+.etoile {
+  text-align: center;
+  font-size: 12px;
+  color: #AB854F;
+}
+
+.titrenav {
+  color: #AB854F;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+
+.haut {
+  text-align: center;
+  position: relative;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  font-size: 10px;
+  margin-top: -4%;
+}
+
+
+.lien {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 30px;
+  height: 400px;
+}
+
+.numnav {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  color: rgb(201, 196, 196);
+  justify-content: space-evenly;
+  margin-right: 25px;
+  width: 260px;
+  line-height: 12px;
+}
+
+.flaticon-call {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30px;
+  color: #AB854F;
+}
+
+
+.telnav {
+  color: #AB854F;
+  text-decoration: none;
+  font-size: 25px;
+}
+
