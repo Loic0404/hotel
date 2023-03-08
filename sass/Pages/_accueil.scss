@@ -8,7 +8,7 @@
     gap: 30px;
     align-items: center;
     justify-content: center;
-    background-color: #2D2B29;
+    background-color: $backgroundColorMain;
 }
 
 .presentation img {
@@ -40,7 +40,7 @@
 /* CSS pour la présentation des chambres */
 
 .chambres {
-    background-color: #272523;
+    background-color: $backgroundColorSectionChambre;
     height: 1000px;
     gap: 30px;
     padding-top: 30px;
@@ -51,7 +51,7 @@
 .texteChambres {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: $titreBlanc;
     margin-left: 450px;
 }
 
@@ -88,7 +88,7 @@
     margin-left: 10px;
     z-index: 2;
     font-size: 90%;
-    color: white;
+    color: $titreBlanc;
     width: 200px;
 }
 
@@ -99,7 +99,7 @@
     margin-left: 10px;
     z-index: 2;
     font-size: 130%;
-    color: white;
+    color: $titreBlanc;
     width: 200px;
 }
 
@@ -110,8 +110,8 @@
     margin-left: 250px;
     z-index: 2;
     font-size: 130%;
-    color: white;
-    border: white solid 2px;
+    color: $titreBlanc;
+    border: $titreBlanc solid 2px;
     height: 120px;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -129,7 +129,7 @@
     justify-content: space-between ;
     width: 510px;
     margin-top: 440px;
-    background-color: #272523;
+    background-color: $backgroundColorSectionChambre;
 }
 
 .chambreBox2 {
@@ -144,7 +144,7 @@
     margin-left: 15px;
     z-index: 2;
     font-size: 90%;
-    color: white;
+    color: $titreBlanc;
     width: 200px;
 }
 
@@ -155,7 +155,7 @@
     margin-left: 15px;
     z-index: 2;
     font-size: 130%;
-    color: white;
+    color: $titreBlanc;
     width: 200px;
 }
 
@@ -166,8 +166,8 @@
     margin-left: 420px;
     z-index: 2;
     font-size: 130%;
-    color: white;
-    border: white solid 2px;
+    color: $titreBlanc;
+    border: $titreBlanc solid 2px;
     height: 120px;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -183,7 +183,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #2D2B29;
+    background-color: $backgroundColorMain;
     padding-top: 50px;
 }
 
@@ -199,7 +199,7 @@
 .restaurantTexte {
     width: 500px;
     height: 300px;
-    background-color: #312F2C;
+    background-color: $backgroundColorOptions;
     padding-top: 30px;
 }
 
@@ -219,7 +219,7 @@
 .bienEtreTexte {
     width: 500px;
     height: 300px;
-    background-color: #312F2C;
+    background-color: $backgroundColorOptions;
     padding-top: 30px;
 }
 
@@ -239,7 +239,7 @@
 .fitnessTexte {
     width: 500px;
     height: 300px;
-    background-color: #312F2C;
+    background-color: $backgroundColorOptions;
     padding-top: 30px;
 }
 
@@ -259,7 +259,7 @@
 .centreAquaTexte {
     width: 500px;
     height: 300px;
-    background-color: #312F2C;
+    background-color: $backgroundColorOptions;
     padding-top: 30px;
 }
 
@@ -268,10 +268,10 @@
 }
 
 .enSavoirPlus {
-    border: solid #aa8453;
+    border: solid $backgroundcolorLien;
     margin: 10px;
-    color: white;
-    background-color: #aa8453;
+    color: $titreBlanc;
+    background-color: $backgroundcolorLien;
 }
 
 
@@ -279,22 +279,22 @@
 
 
 h2 {
-    color: white;
+    color: $titreBlanc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
-    color: white;
+    color: $titreBlanc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .jauneLiens {
-    color: #AB854F;
+    color: #$texteOrange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grisLiens {
-    color: grey;
+    color: $couleurTexte;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
