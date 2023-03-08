@@ -280,30 +280,30 @@
 
 h2 {
     color: $titreBlanc;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $policeTitre;
 }
 
 h3 {
     color: $titreBlanc;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $policeTitre;
 }
 
 .jauneLiens {
-    color: #$texteOrange;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $texteOrange;
+    font-family: $policeClassique;
 }
 
 .grisLiens {
     color: $couleurTexte;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $policeClassique;
 }
 
 .titreJaune {
-    color: #AB854F;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $texteOrange;
+    font-family: $policeClassique;
 }
 
 .texteGris {
-    color: grey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $couleurTexte;
+    font-family: $policeClassique;
 }
