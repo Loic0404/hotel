@@ -43,6 +43,7 @@
     background-color: #272523;
     height: 1000px;
     gap: 30px;
+    padding-top: 30px;
 }
 
 
@@ -113,6 +114,7 @@
     border: white solid 2px;
     height: 120px;
     writing-mode: vertical-rl;
+    transform: rotate(180deg);
     text-align: center;
 }
 
@@ -168,6 +170,7 @@
     border: white solid 2px;
     height: 120px;
     writing-mode: vertical-rl;
+    transform: rotate(180deg);
     text-align: center;
 }
 
@@ -180,6 +183,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #2D2B29;
+    padding-top: 50px;
 }
 
 .restaurant {
@@ -193,6 +198,9 @@
 
 .restaurantTexte {
     width: 500px;
+    height: 300px;
+    background-color: #312F2C;
+    padding-top: 30px;
 }
 
 .restaurantTexte p , .restaurantTexte h3 {
@@ -210,7 +218,9 @@
 
 .bienEtreTexte {
     width: 500px;
-    
+    height: 300px;
+    background-color: #312F2C;
+    padding-top: 30px;
 }
 
 .bienEtreTexte p , .bienEtreTexte h3 {
@@ -228,6 +238,9 @@
 
 .fitnessTexte {
     width: 500px;
+    height: 300px;
+    background-color: #312F2C;
+    padding-top: 30px;
 }
 
 .fitnessTexte p , .fitnessTexte h3 {
@@ -245,6 +258,9 @@
 
 .centreAquaTexte {
     width: 500px;
+    height: 300px;
+    background-color: #312F2C;
+    padding-top: 30px;
 }
 
 .centreAquaTexte p , .centreAquaTexte h3 {
@@ -252,6 +268,42 @@
 }
 
 .enSavoirPlus {
-    border: solid ;
+    border: solid #aa8453;
     margin: 10px;
+    color: white;
+    background-color: #aa8453;
+}
+
+
+/* CSS pour les couleurs, polices, et tailles des textes */
+
+
+h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jauneLiens {
+    color: #AB854F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grisLiens {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titreJaune {
+    color: #AB854F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texteGris {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
