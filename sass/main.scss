@@ -1,22 +1,40 @@
+
 // importation des Utils
 
-@import url(Utils/_varaible.scss);
-@import url(Utils/_mixins.scss);
-@import url(Utils/_fonction.scss);
+@import "./Utils/fonction";
+@import "./Utils/mixins";
+@import "./Utils/varaible";
 
-// Importation des pages
 
-@import url(Pages/_accueil.scss);
-@import url(Pages/_chambres.scss);
-@import url(Pages/_contact.scss);
+
+
+
+//Importation des Base
+@import "./Base/base";
+@import "./Base/font";
+
+//importation des composants
+
+@import "./Composants/buttons";
 
 // Importation des layout
 
-@import url(Layout/_header.scss);
-@import url(Layout/_header.scss);
+@import "./Layout/footer";
+@import "./Layout/form";
+@import "./Layout/header";
+
+// Importation des pages
+
+@import "./Pages/accueil";
+@import "./Pages/chambres";
+@import "./Pages/contact";
+
+
+
+
+
 
 
 
 // Importation des polices d'écriture
 
-@import url(Base/_font.scss);
