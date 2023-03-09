@@ -57,6 +57,10 @@
     text-underline-offset: 6px;
 }
 
+.emoji{
+   padding-top: 20px;
+}
+
 .emoji a {
     font-size: 25px;
     text-decoration: none;
@@ -87,11 +91,12 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 0%;
-    margin-right: -0.5%;
-    padding-top: 4%;
-    padding-bottom: 0.5%;
+    margin-right: -25.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 25.5%;
+} 
 
-    span {
-        color: #646161;
-     }
+span {
+   color: #646161;
 }
