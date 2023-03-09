@@ -1,14 +1,14 @@
+/* CSS pour la partie présentation */
+
+
+/* Mise en forme de la partie texte */
 .presentation {
     height: 600px;
     display: flex;
-    margin: 30px;
     gap: 30px;
     align-items: center;
     justify-content: center;
-}
-
-h2 {
-    @mixin petitTitre;
+    background-color: $backgroundColorMain;
 }
 
 .presentation img {
@@ -21,10 +21,7 @@ h2 {
     width: 500px;
 }
 
-.texte p {
-    @mixin texteOrange;
-}
-
+/* Mise en forme de la partie avec les images */
 .images {
     display: flex;
     flex-direction: row;
@@ -36,54 +33,283 @@ h2 {
     height: 300px;
 }
 
+.image1 {
+    margin-top: 130px;
+}
+
+.image2 {
+    margin-top: 40px;
+}
+
+
+
+/* CSS pour la présentation des chambres */
+
 .chambres {
+    background-color: $backgroundColorSectionChambre;
+    height: 1000px;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+
+/* Mise en forme du titre et texte */
+.texteChambres {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 30px;
+    color: $titreBlanc;
+    margin-left: 450px;
+}
+
+.boxChambre {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-around;
+    width: 700px;
+    margin-left: 450px;
+}
+
+/* Mise en forme de la box1 avec les 3 premières photos */
+.image3 {
+    width: 300px;
 }
 
 .box1 {
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    justify-content: space-between ;
+    
+   
 }
 
-.box1 a img {
-    width: 300px;   
+.chambreBox1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.prixBox1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 300px;
+    margin-left: 10px;
+    z-index: 2;
+    font-size: 90%;
+    color: $titreBlanc;
+    width: 200px;
+}
+
+.styleBox1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 310px;
+    margin-left: 10px;
+    z-index: 2;
+    font-size: 130%;
+    color: $titreBlanc;
+    width: 200px;
+}
+
+.reserverBox1 p {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 250px;
+    z-index: 2;
+    font-size: 130%;
+    color: $titreBlanc;
+    border: $titreBlanc solid 2px;
+    height: 120px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+}
+
+
+/* Mise en forme de la box2 avec les 2 dernières photos */
+.image4 {
+    width: 490px;
 }
 
 .box2 {
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    justify-content: space-between ;
+    width: 510px;
+    margin-top: 440px;
+    background-color: $backgroundColorSectionChambre;
 }
 
-.box2 a img {
-    width: 470px; 
+.chambreBox2 {
+    position: absolute;
+    z-index: 1;
 }
 
-.activiter {
-    display: grid;
-    grid-template-columns: 470px 470px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 30px;
-    margin-left: 460px;
+.prixBox2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: 15px;
+    z-index: 2;
+    font-size: 90%;
+    color: $titreBlanc;
+    width: 200px;
 }
 
-.activiter img {
-    width: 470px;
+.styleBox2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 210px;
+    margin-left: 15px;
+    z-index: 2;
+    font-size: 130%;
+    color: $titreBlanc;
+    width: 200px;
 }
 
-.activiter a {
-    border: solid;
-    padding: 15px;
+.reserverBox2 p {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 420px;
+    z-index: 2;
+    font-size: 130%;
+    color: $titreBlanc;
+    border: $titreBlanc solid 2px;
+    height: 120px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
 }
 
-.para {
-    margin-bottom: 30px;
+
+
+
+
+/* CSS pour les liens */
+.liens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $backgroundColorMain;
+    padding-top: 50px;
 }
 
-.texteChambres {
-    margin-left: 430px;
+.restaurant {
+    display: flex;
+    align-items: center;
+}
+
+.restaurant img {
+    width: 500px;
+}
+
+.restaurantTexte {
+    width: 500px;
+    height: 300px;
+    background-color: $backgroundColorOptions;
+    padding-top: 30px;
+}
+
+.restaurantTexte p , .restaurantTexte h3 {
+    margin: 10px;
+}
+
+.bienEtre {
+    display: flex;
+    align-items: center;
+}
+
+.bienEtre img {
+    width: 500px;
+}
+
+.bienEtreTexte {
+    width: 500px;
+    height: 300px;
+    background-color: $backgroundColorOptions;
+    padding-top: 30px;
+}
+
+.bienEtreTexte p , .bienEtreTexte h3 {
+    margin: 10px;
+}
+
+.fitness {
+    display: flex;
+    align-items: center;
+}
+
+.fitness img {
+    width: 500px;
+}
+
+.fitnessTexte {
+    width: 500px;
+    height: 300px;
+    background-color: $backgroundColorOptions;
+    padding-top: 30px;
+}
+
+.fitnessTexte p , .fitnessTexte h3 {
+    margin: 10px;
+}
+
+.centreAqua {
+    display: flex;
+    align-items: center;
+}
+
+.centreAqua img {
+    width: 500px;
+}
+
+.centreAquaTexte {
+    width: 500px;
+    height: 300px;
+    background-color: $backgroundColorOptions;
+    padding-top: 30px;
+}
+
+.centreAquaTexte p , .centreAquaTexte h3 {
+    margin: 10px;
+}
+
+.enSavoirPlus {
+    border: solid $backgroundcolorLien;
+    margin: 10px;
+    color: $titreBlanc;
+    background-color: $backgroundcolorLien;
+}
+
+
+/* CSS pour les couleurs, polices, et tailles des textes */
+
+
+h2 {
+    color: $titreBlanc;
+    font-family: $policeTitre;
+}
+
+h3 {
+    color: $titreBlanc;
+    font-family: $policeTitre;
+}
+
+.jauneLiens {
+    color: $texteOrange;
+    font-family: $policeClassique;
+}
+
+.grisLiens {
+    color: $couleurTexte;
+    font-family: $policeClassique;
+}
+
+.titreJaune {
+    color: $texteOrange;
+    font-family: $policeClassique;
+}
+
+.texteGris {
+    color: $couleurTexte;
+    font-family: $policeClassique;
 }
