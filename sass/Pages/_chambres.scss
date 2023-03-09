@@ -4,12 +4,11 @@ body{
     flex-direction: column;
     margin: auto;
     padding: 0%;
-
+    background-color: rgb(29, 27, 27);
 }
 
-section{
-
-    background-image: url(/images/rooms/4.jpg);
+.section{
+  background-image: url(/images/rooms/4.jpg);
     height:1200px;
     
 }
@@ -56,7 +55,7 @@ section{
 }
 
 .flex{
-    // background: rgb(29, 27, 27);
+    background: rgb(29, 27, 27);
     display: flex;
     flex-direction: row;
     align-items:center;   
@@ -87,6 +86,7 @@ section{
 
 .flex2 p{
     color: #8d8d8d;
+    
 
 }
 
@@ -106,7 +106,8 @@ i{
      
     // background: rgb(29, 27, 27);
     display: flex;
-    padding-left: 200px;
+    margin-left: 25.5%;
+    padding-left: 100px;
     padding-right: 300px;
     gap: 100px;
 }
@@ -125,9 +126,10 @@ i{
 
 .modification{
     // background: rgb(29, 27, 27);
-    padding-left: 200px;
-    padding-right: 600px;
+    padding-left: 100px;
+    // padding-right: 600px;
     line-height: 30px;
+    margin-left: 25.5%;
 }
 
 .modification h2{
