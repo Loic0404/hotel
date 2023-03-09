@@ -53,66 +53,21 @@
 
         <div class="carrousel">
             <div id="content">
-    
-            </div>
-           <img src="images/caroussel/fleche.png" class="bouton" id="g" alt="">
-           <img src="images/caroussel/fleche.png" class="bouton" id="d" alt="">
-        </div>
-    
-            <!-- Texte de la partie présentation -->
-            <div class="texte">
-    
-                <img src="images/etoiles.png" alt="Logo 5 étoiles">
-    
-                <p>HOTEL DE LUXE DUCSMAN</p>
-    
-            <h2>L'expérience du luxe</h2>
-            </div>
-    
-        <script>
-            document.body.onload=function(){
-                nbr=3;
-                p=0;
-                content=document.getElementById("content");
-                g=document.getElementById("g");
-                d=document.getElementById("d");
-                content.style.width= (1480*nbr)+"px";
-                for(i=1;i<=nbr;i++){
-                    div=document.createElement("div");
-                    div.className="photo";
-                    div.style.backgroundImage="url('images/caroussel/img"+i+".jpg')";
-                    content.appendChild(div);
-                }
-                afficherMasquer();
-            }
-            g.onclick=function(){
-                if(p>-nbr+1)
-              p--;
-              content.style.transform="translate("+p*1480+"px)";
-              content.style.transition="all 0.5s ease";
-              afficherMasquer();
-    
-            }
-    
-            d.onclick=function(){
-                if(p<0)
-              p++;
-              content.style.transform="translate("+p*1480+"px)";
-              content.style.transition="all 0.5s ease";
-              afficherMasquer();
-            }
-            function afficherMasquer(){
-                if(p==-nbr+1)
-                d.style.visibility="hidden";
-                else
-                d.style.visibility="visible";
-                if(p==0)
-                g.style.visibility="hidden";
-                else
-                g.style.visibility="visible";
-            }
-        </script>
 
+            </div>
+            <img src="images/caroussel/fleche.png" class="bouton" id="g" alt="">
+            <img src="images/caroussel/fleche.png" class="bouton" id="d" alt="">
+        </div>
+
+        <!-- Texte de la partie présentation -->
+        <div class="texte">
+
+            <img src="images/etoiles.png" alt="Logo 5 étoiles">
+
+            <p>HOTEL DE LUXE DUCSMAN</p>
+
+            <h2>L'expérience du luxe</h2>
+        </div>
 
         <!-- Partie présentation -->
         <section class="presentation">
@@ -559,15 +514,67 @@
 
             </div>
 
+        </section>
 
+        <section class="basdepageLoic">
+
+            <div class="footerGaucheLoic">
+
+                <h2 class="proposLoic">A propos de notre hôtel</h2>
+
+                <p class="textproposLoic">
+                    Le seul hôtel 5 étoiles de Paris. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum
+                    in
+                    laborum perferendis optio, itaque vel asperiores excepturi dolorum repellat eos aliquid,
+                    soluta
+                    amet
+                    reprehenderit illum? Voluptatibus mollitia porro aspernatur nesciunt! Lorem ipsum dolor sit
+                    amet
+                    consectetur adipisicing elit. Minima, delectus possimus? Magni non est, provident cupiditate
+                    esse
+                    ipsa
+                    sint aliquid temporibus, reprehenderit deleniti inventore nisi rerum nobis aliquam sapiente
+                    quia!
+                </p>
+
+            </div>
+
+            <div class="footerDroiteLoic">
+
+                <h2 class="contactLoic">Contact</h2>
+
+                <p class="lieuLoic">
+                    23 avenue des Nations Unies<br>75001 Paris
+                </p>
+
+                <p class="telBasLoic">
+                    <i class="flaticon-call"></i><a class="numBasLoic" href="tel:+33320010203">03 20 01 02 03</a>
+                </p>
+
+                <a class="mailBasLoic" href="mailto:info@ducsman-group.com">info@ducsman-group.com</a><br><br>
+                
+                <div class="emojiLoic">
+
+                    <a href=""><i class="ti-instagram"> </i></a>
+                    <a href=""><i class="ti-twitter-alt"> </i></a>
+                    <a href=""><i class="flaticon-youtube"> </i></a>
+                    <a href=""><i class="ti-facebook"> </i></a>
+                    <a href=""><i class="ti-pinterest-alt"> </i></a>
+                
+                </div>
 
             </div>
 
         </section>
 
+        <footer class="jules">Mention Légales - Conditions générales de Ventes - Politique de confidentialité <span> - © Copyright 2023 - DucksMan Group</span></footer>
+
+
     </main>
 
 
 </body>
+<script src="/sass/Composants/carrousel.js"></script>
 
 </html>
