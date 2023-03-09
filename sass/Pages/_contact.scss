@@ -8,12 +8,13 @@ body {
 }
 
 html {
-   background-color: #222222;
+
    color: rgb(201, 196, 196);
    
 }
 
-main {
+.grosseBoite {   
+    background-color: #222222;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -28,7 +29,7 @@ main {
    flex-direction: column;
    justify-content: space-between;
    width: 80%;
-   margin-left: 28%;
+//    margin-left: 28%;
    padding-top: 2%;
    padding-left: 10%;
    padding-right: 5%;
