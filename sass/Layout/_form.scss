@@ -41,7 +41,7 @@ textarea {
     width: 100%;
     height: 30%;
     margin-bottom: 0%;
-    font-size: 15px;
+    font-size: $taillePoliceTexte;
 }
 
 input,
@@ -51,8 +51,10 @@ textarea {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid rgba(201, 196, 196, 0.5);
-    background-color: #222222;
+    background-color: $backgroundColorMain;
+    //  #222222;
     text-decoration: none;
     padding-bottom: 1px;
-    color: rgb(201, 196, 196);
+    color: $couleurTexte;
+    // color: rgb(201, 196, 196);
 }
