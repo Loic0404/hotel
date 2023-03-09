@@ -85,7 +85,7 @@
                 }
                 afficherMasquer();
             }
-            d.onclick=function(){
+            g.onclick=function(){
                 if(p>-nbr+1)
               p--;
               content.style.transform="translate("+p*1480+"px)";
@@ -94,23 +94,23 @@
     
             }
     
-            g.onclick=function(){
+            d.onclick=function(){
                 if(p<0)
               p++;
               content.style.transform="translate("+p*1480+"px)";
               content.style.transition="all 0.5s ease";
               afficherMasquer();
             }
-            // function afficherMasquer(){
-            //     if(p==-nbr+1)
-            //     g.style.visibility="hidden";
-            //     else
-            //     g.style.visibility="visible";
-            //     if(p==0)
-            //     d.style.visibility="hidden";
-            //     else
-            //     d.style.visibility="visible";
-            // }
+            function afficherMasquer(){
+                if(p==-nbr+1)
+                d.style.visibility="hidden";
+                else
+                d.style.visibility="visible";
+                if(p==0)
+                g.style.visibility="hidden";
+                else
+                g.style.visibility="visible";
+            }
         </script>
 
 
