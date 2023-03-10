@@ -617,7 +617,13 @@ main {
         display: flex;
         flex-direction: column;
         margin-left: 450px;
-        height: 800px;
+        height: 850px;
+    }
+
+    .boxOption {
+        display: flex;
+        flex-direction: column;
+        height: 350px;
     }
 
     .servicesEnPlus {
