@@ -1,9 +1,23 @@
 .texte{
     position: absolute;
     z-index: 1;
-    top:300px;
-    left:1000px;  
+    top:200px;
+    left:1000px; 
+    width: 400px; 
 }
+
+.texte p{
+    color: $titreBlanc;
+}
+
+.texte h2{
+   font-size: 80px;
+   font-family: $policeTitre;
+   margin: 0%;
+   
+}
+
+
 
 .texte img{
  width: 50px;
@@ -43,7 +57,7 @@ margin-left: 40px;
 }
 
 #g{
-    left: 0%;
+    left: 22%;
    
     transform: rotate(0deg);
     transition: all 0.3 ease;
