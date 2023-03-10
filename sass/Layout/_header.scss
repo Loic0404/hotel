@@ -92,3 +92,17 @@
   text-decoration: none;
   font-size: 25px;
 }
+
+
+
+@media (max-width:600px) {
+  .nav {
+    display: none;
+    width: 0%;
+    margin: 0%;
+  }
+
+  .numnav {
+    margin-left: 0%;
+  }
+}
