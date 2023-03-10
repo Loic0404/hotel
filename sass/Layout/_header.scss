@@ -11,6 +11,7 @@
   top: 0;
   left: 0;
   overflow-x: hidden;
+  //padding top à supprimer version mobile//
   padding-top: 4%;
   padding-left: 1%;
   padding-right: 1%;
@@ -91,4 +92,38 @@
   color: $texteOrange;
   text-decoration: none;
   font-size: 25px;
+}
+//menu burger
+.menu-burger i{
+background: none;
+font-size: 60px;
+// display: none;
+
+}
+// display: block;
+
+.menu-burger{
+
+display: inline-block;
+position: relative;
+}
+
+
+.menu-burger::before,
+.menu-burger::after{
+  content: '';
+ 
+  display: inline-block;
+  position: absolute;
+  transform-origin: center;
+  transition: all 0.3s ease;
+
+}
+
+.menu-burger::before{
+  top: -7px;
+}
+
+.menu-burger::after{
+  top: 7px;
 }
