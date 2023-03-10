@@ -25,7 +25,7 @@ html {
    padding-right: 4%; */
 }
 
-.boite {
+.boiteJules {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -233,12 +233,10 @@ iframe {
     color: $titreBlanc;
 }
 
-@media screen and (max-width:400px) {
-    .body {
+@media screen and (max-width:600px) {
+
+    .boiteJules {
         width: 100%;
-        margin-left: 0%;
-    }
-    .boite {
         margin-left: 0%;
         padding-left: 0%;
         padding-right:0%;
@@ -247,4 +245,5 @@ iframe {
         flex-direction: column;
         flex-wrap: wrap;
     }
+
 }
