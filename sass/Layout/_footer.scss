@@ -1,6 +1,7 @@
-// Footer Contact
+// Footer Contact 
 .jules {
-    background-color: #1f1e1e;
+    background-color: $backgroundColorFooter;
+    color: $titreBlanc;
     display: flex;
     justify-content: center;
     margin-bottom: 0%;
@@ -11,12 +12,21 @@
     padding-left: 25%;
 } 
 
+// Footer Accueil
+
+
 // Footer Chambre
-.saif {
-    background-color: #db2222;
+.footersaif {
+    background-color: $backgroundColorFooter;
+    color: $titreBlanc;
     display: flex;
     justify-content: center;
-
+    margin-bottom: 0%;
+    // margin-right: -25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: -25%;
+    padding-left: 50%;
 }
 
 

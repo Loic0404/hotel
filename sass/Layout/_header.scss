@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   flex-direction: column;
-  background-color: #1B1B1B;
+  background-color: $backgroundColorNav;
   line-height: 100%;
   width: 20%;
   margin-top: 0;
@@ -24,25 +24,25 @@
 
 .nav li a {
   display: flex;
-  color: rgb(201, 196, 196);
+  color: $couleurTexte;
   padding: 8px 16px;
   text-decoration: none;
 }
 
 .nav li a:hover {
-  color: #AB854F;
+  color: $texteOrange;
 }
 
 .etoile {
   text-align: center;
   font-size: 12px;
-  color: #AB854F;
+  color: $texteOrange;
 }
 
 .titrenav {
-  color: #AB854F;
+  color: $texteOrange;
   text-align: center;
-  font-size: 30px;
+  font-size: $taillePoliceTitre;
   font-weight: 100;
   letter-spacing: 5px;
 }
@@ -62,7 +62,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 15px;
+  font-size: $taillePoliceTexte;
   line-height: 30px;
   height: 400px;
 }
@@ -70,8 +70,8 @@
 .numnav {
   display: flex;
   flex-direction: row;
-  font-size: 15px;
-  color: rgb(201, 196, 196);
+  font-size: $taillePoliceTexte;
+  color: $couleurTexte;
   justify-content: space-evenly;
   margin-right: 25px;
   width: 260px;
@@ -82,13 +82,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 30px;
-  color: #AB854F;
+  font-size: $taillePoliceTitre;
+  color: $texteOrange;
 }
 
 
 .telnav {
-  color: #AB854F;
+  color: $texteOrange;
   text-decoration: none;
   font-size: 25px;
 }

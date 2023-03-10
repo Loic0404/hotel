@@ -9,12 +9,13 @@ body {
 
 html {
 
-   color: rgb(201, 196, 196);
+   color: $couleurTexte;
+//    rgb(201, 196, 196);
    
 }
 
 .grosseBoite {   
-    background-color: #222222;
+    background-color: $backgroundColorMain;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -53,15 +54,15 @@ html {
 .telinfo {
     display: flex;
     flex-direction: row;
-    font-size: 15px;
-    color: rgb(201, 196, 196);
+    font-size: $taillePoliceTexte;
+    color: $backgroundColorMain;
     justify-content: space-evenly;
     width: 240px;
     line-height: 25px;
 }
 
 .tel {
-    color: #AB854F;
+    color: $texteOrange;
     text-decoration: none;
     font-size: 25px;
 }
@@ -70,16 +71,16 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 30px;
-    color: #AB854F;
+    font-size: $taillePoliceTitre;
+    color: $texteOrange;
 
 }
 
 .mailinfo {
    display: flex;
    flex-direction: row;
-   font-size: 15px;
-   color: rgb(201, 196, 196);
+   font-size: $taillePoliceTexte;
+   color: $backgroundColorMain;
    justify-content: space-evenly;
    width: 240px;
    line-height: 25px;
@@ -89,22 +90,22 @@ html {
    display: flex;
    flex-direction: row;
    align-items: center;
-   font-size: 30px;
-   color: #AB854F
+   font-size: $taillePoliceTitre;
+   color: $texteOrange;
 }
 
 .mailto {
-   color: #AB854F;
+   color: $texteOrange;
     text-decoration: none;
     font-weight: 600;
-    font-size: 16px;
+    font-size: $taillePoliceTexte;
 }
 
 .adressinfo {
    display: flex;
    flex-direction: row;
-   font-size: 15px;
-   color: rgb(201, 196, 196);
+   font-size: $taillePoliceTexte;
+   color: $couleurTexte;
    justify-content: space-evenly;
    width: 240px;
    line-height: 25px;
@@ -114,8 +115,8 @@ html {
    display: flex;
    flex-direction: row;
    align-items: center;
-   font-size: 30px;
-   color: #AB854F
+   font-size: $taillePoliceTitre;
+   color: $texteOrange;
 }
 
 h2 {
@@ -179,24 +180,24 @@ iframe {
 }
 
 .telBasjules .flaticon-call {
-    color: #ffffff;
-    font-size: 30px;
+    color: $titreBlanc;
+    font-size: $taillePoliceTitre;
 }
 
 .telBasjules .numBasjules {
     text-decoration: none;
-    color: #ffffff;
+    color: $titreBlanc;
     font-size: 25px;
 }
 
 .footerGauchejules,
 .footerDroitejules {
-    font-size: 15px;
+    font-size: $taillePoliceTexte;
 }
 
 .mailBasjules {
-    color: #ffffff;
-    text-decoration-color: #AB854F;
+    color: $titreBlanc;
+    text-decoration-color: $texteOrange;
     text-decoration-skip-ink: none;
     text-decoration-thickness: 1px;
     text-underline-offset: 6px;
@@ -212,21 +213,21 @@ iframe {
 }
 
 .ti-instagram {
-    color: #ffffff;
+    color: $titreBlanc;
 }
 
 .ti-twitter-alt {
-    color: #ffffff;
+    color: $titreBlanc;
 }
 
 .flaticon-youtube {
-    color: #ffffff;
+    color: $titreBlanc;
 }
 
 .ti-facebook {
-    color: #ffffff;
+    color: $titreBlanc;
 }
 
 .ti-pinterest-alt {
-    color: #ffffff;
+    color: $titreBlanc;
 }
