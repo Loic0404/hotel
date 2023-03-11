@@ -233,17 +233,58 @@ iframe {
     color: $titreBlanc;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
 
     .boiteJules {
-        width: 100%;
-        margin-left: 0%;
+        margin-left: -13%;
         padding-left: 0%;
-        padding-right:0%;
+        width: 100%;
     }
     .info {
         flex-direction: column;
         flex-wrap: wrap;
     }
 
+    .grosseBoite {
+        width: 200%;
+        flex-direction: column;
+    }
+    body {
+        background-color: $backgroundColorMain;
+    }
+    .basdepagejules {
+        flex-direction: column;
+    }
+    iframe {
+        margin-bottom: 50px;
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .boiteJules {
+        margin-left: -13%;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .info {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .grosseBoite {
+        width: 200%;
+        flex-direction: column;
+    }
+    body {
+        background-color: $backgroundColorMain;
+    }
+    .basdepagejules {
+        flex-direction: column;
+    }
+    iframe {
+        margin-bottom: 50px;
+        margin-top: 75px;
+    }
 }

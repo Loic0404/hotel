@@ -1,4 +1,4 @@
-// Footer Contact 
+// Footer Contact /////////////////////////////////////////////////////////
 .jules {
     background-color: $backgroundColorFooter;
     color: $titreBlanc;
@@ -11,7 +11,7 @@
     margin-left: -25%;
     padding-left: 25%;
 } 
-
+// ///////////////////////////////////////////////////////////////////////
 
 // Footer Accueil
 
@@ -34,3 +34,26 @@
 span {
    color: #646161;
 }
+
+// Responsive footer Jules ///////////////////////////////////////////////
+
+@media screen and (max-width:400px) {
+    .jules {
+        flex-direction: column;
+        margin-left: -25%;
+        padding-left: 10%;
+        padding-right: 5%;
+        font-size: 12px;
+    }     
+}
+
+@media screen and (max-width:600px) {
+    .jules {
+        flex-direction: column;
+        margin-left: -25%;
+        padding-left: 10%;
+        padding-right: 5%;
+        font-size: 12px;
+    }     
+}
+//////////////////////////////////////////////////////////////////////////
