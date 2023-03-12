@@ -1,0 +1,99 @@
+/* CSS pour les liens */
+.liens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $backgroundColorMain;
+    padding-top: 50px;
+}
+
+.restaurant {
+    display: flex;
+    align-items: center;
+}
+
+.restaurant img {
+    width: 600px;
+}
+
+.restaurantTexte {
+    width: 600px;
+    height: 370px;
+    background-color: $backgroundColorOptions;
+    padding-top: 30px;
+}
+
+.restaurantTexte p,
+.restaurantTexte h3 {
+    margin: 10px;
+}
+
+.bienEtre {
+    display: flex;
+    align-items: center;
+}
+
+.bienEtre img {
+    width: 600px;
+}
+
+.bienEtreTexte {
+    width: 600px;
+    height: 370px;
+    background-color: $backgroundColorOptions;
+    padding-top: 30px;
+}
+
+.bienEtreTexte p,
+.bienEtreTexte h3 {
+    margin: 10px;
+}
+
+.fitness {
+    display: flex;
+    align-items: center;
+}
+
+.fitness img {
+    width: 600px;
+}
+
+.fitnessTexte {
+    width: 600px;
+    height: 370px;
+    background-color: $backgroundColorOptions;
+    padding-top: 30px;
+}
+
+.fitnessTexte p,
+.fitnessTexte h3 {
+    margin: 10px;
+}
+
+.centreAqua {
+    display: flex;
+    align-items: center;
+}
+
+.centreAqua img {
+    width: 600px;
+}
+
+.centreAquaTexte {
+    width: 600px;
+    height: 370px;
+    background-color: $backgroundColorOptions;
+    padding-top: 30px;
+}
+
+.centreAquaTexte p,
+.centreAquaTexte h3 {
+    margin: 10px;
+}
+
+.enSavoirPlus {
+    border: solid $backgroundcolorLien;
+    margin: 10px;
+    color: $titreBlanc;
+    background-color: $backgroundcolorLien;
+}

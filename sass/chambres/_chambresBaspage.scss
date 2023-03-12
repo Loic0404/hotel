@@ -1,0 +1,88 @@
+
+.basdepagesaif {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.propossaif,
+.contactsaif {
+    font-size: 25px;
+}
+
+.footerGauchesaif {
+    flex-basis: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.footerDroitesaif {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 30%;
+}
+
+.telBassaif {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.telBassaif .flaticon-call {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.telBassaif .numBassaif {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.footerGauchesaif,
+.footerDroitesaif {
+    font-size: 15px;
+}
+
+.mailBassaif {
+    color: #ffffff;
+    text-decoration-color: #AB854F;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+}
+
+.emojisaif{
+   padding-top: 20px;
+}
+
+.emojisaif a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.ti-instagram {
+    color: #ffffff;
+}
+
+.ti-twitter-alt {
+    color: #ffffff;
+}
+
+.flaticon-youtube {
+    color: #ffffff;
+}
+
+.ti-facebook {
+    color: #ffffff;
+}
+
+.ti-pinterest-alt {
+    color: #ffffff;
+}
