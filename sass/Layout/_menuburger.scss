@@ -1,34 +1,32 @@
 //menu burger
-.menu-burger i{
-    background: none;
-    font-size: 60px;
-    // display: none;
-    
-    }
-    // display: block;
-    
-    .menu-burger{
-    
-    display: inline-block;
-    position: relative;
-    }
+.ti-menu{
+ 
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10000;
+  }
     
     
-    .menu-burger::before,
-    .menu-burger::after{
-      content: '';
-     
-      display: inline-block;
-      position: absolute;
-      transform-origin: center;
-      transition: all 0.3s ease;
+   
     
-    }
+
+
+    @media screen and (max-width: 768px) {
+      #open-menu {
+        display: block;
+      }
     
-    .menu-burger::before{
-      top: -7px;
-    }
+      aside {
+        position: fixed;
+        top: 0;
+        left: 0;
+        // display: none; //A supprimer une fois le menu burger fini
     
-    .menu-burger::after{
-      top: 7px;
+        &.active {
+          display: block;
+        }
+      }
+    
     }
