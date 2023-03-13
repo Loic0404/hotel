@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: $backgroundColorNav;
+  font-family: $taillePoliceTexte;
   line-height: 100%;
   width: 20%;
   margin-top: 0;
@@ -44,6 +45,7 @@
 .titrenav {
   color: $texteOrange;
   text-align: center;
+  font-family: $taillePoliceTitre;
   font-size: $taillePoliceTitre;
   font-weight: 100;
   letter-spacing: 5px;
