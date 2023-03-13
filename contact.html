@@ -14,149 +14,154 @@
 </head>
 
 <body>
-    <!-- NAVBAR VERTICALE -->
-    <img src="/images/burger.png" id="burger">
+    <div class="body">
+        <!-- NAVBAR VERTICALE -->
+        <img src="/images/burger.png" id="burger">
 
-    <aside>
-    <div class="menu-burger">
+        <aside>
+            <div class="menu-burger">
 
-            <nav class="nav">
-                <div class="etoile">
-                    <i class="ti-star"></i>
-                    <i class="ti-star"></i>
-                    <i class="ti-star"></i>
-                    <i class="ti-star"></i>
-                    <i class="ti-star"></i>
-                    <!-- Changer la class pour le flaticon star -->
-                </div>
-                <h1 class="titrenav">
-                    DUCSMAN
-                </h1>
-                <p class="haut">
-                    DORMEZ COMME JAMAIS
-                </p>
-
-                <ul class="lien">
-                    <li><a href="accueil.html">ACCUEIL</a></li>
-                    <li><a href="#">À PROPOS</a></li>
-                    <li><a href="chambre.html">CHAMBRES & SUITES</a></li>
-                    <li><a href="#">RESTAURANT</a></li>
-                    <li><a href="#">CENTRE DE BIEN-ÊTRE</a></li>
-                    <li><a href="#">ACTUALITE</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-                <!-- Changer la class pour le flaticon phone -->
-                <div class="numnav">
-                    <i class="flaticon-call"></i>
-                    <p class="infoNum"> Informations & Réservations<br><br>
-                        <a class="telnav" href="tel:+33320010203">03 20 01 02 03</a>
-                    </p>
-                </div>
-            </nav>
-        </div>
-    </aside>
-    <main class="grosseBoite">
-        <div class="boiteJules">
-            <div class="info">
-                <div class="gauche">
-                    <h2 class="titreinfo">
-                        Ducsman
-                    </h2>
-                    <p class="description">
-                        Nous sommes à votre disposition pour toute question relative à votre séjour ou pour vous
-                        préparer le
-                        plus
-                        luxurieux des voyages.
+                <nav class="nav">
+                    <div class="etoile">
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                        <!-- Changer la class pour le flaticon star -->
+                    </div>
+                    <h1 class="titrenav">
+                        DUCSMAN
+                    </h1>
+                    <p class="haut">
+                        DORMEZ COMME JAMAIS
                     </p>
 
-                    <div class="telinfo">
+                    <ul class="lien">
+                        <li><a href="accueil.html">ACCUEIL</a></li>
+                        <li><a href="#">À PROPOS</a></li>
+                        <li><a href="chambre.html">CHAMBRES & SUITES</a></li>
+                        <li><a href="#">RESTAURANT</a></li>
+                        <li><a href="#">CENTRE DE BIEN-ÊTRE</a></li>
+                        <li><a href="#">ACTUALITE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <!-- Changer la class pour le flaticon phone -->
+                    <div class="numnav">
                         <i class="flaticon-call"></i>
-                        <p class="infoNum"> Informations & Réservations<br>
-                            <a class="tel" href="tel:+33320010203">03 20 01 02 03</a>
+                        <p class="infoNum"> Informations & Réservations<br><br>
+                            <a class="telnav" href="tel:+33320010203">03 20 01 02 03</a>
                         </p>
                     </div>
-                    <div class="mailinfo">
-                        <i class="flaticon-envelope"></i>
-                        <p class="email">E-mail<br><a class="mailto"
-                                href="mailto:info@ducsman-group.com">info@ducsman-group.com</a></p>
-                    </div>
-                    <div class="adressinfo">
-                        <i class="flaticon-location-pin"></i>
-                        <p class="infoLieu">Adresse<br>23 avenue des Nations Unies<br>75001 Paris</p>
-                    </div>
+                </nav>
+            </div>
+        </aside>
+        <main class="grosseBoite">
+            <div class="boiteJules">
+                <div class="info">
+                    <div class="gauche">
+                        <h2 class="titreinfo">
+                            Ducsman
+                        </h2>
+                        <p class="description">
+                            Nous sommes à votre disposition pour toute question relative à votre séjour ou pour vous
+                            préparer le
+                            plus
+                            luxurieux des voyages.
+                        </p>
 
+                        <div class="telinfo">
+                            <i class="flaticon-call"></i>
+                            <p class="infoNum"> Informations & Réservations<br>
+                                <a class="tel" href="tel:+33320010203">03 20 01 02 03</a>
+                            </p>
+                        </div>
+                        <div class="mailinfo">
+                            <i class="flaticon-envelope"></i>
+                            <p class="email">E-mail<br><a class="mailto"
+                                    href="mailto:info@ducsman-group.com">info@ducsman-group.com</a></p>
+                        </div>
+                        <div class="adressinfo">
+                            <i class="flaticon-location-pin"></i>
+                            <p class="infoLieu">Adresse<br>23 avenue des Nations Unies<br>75001 Paris</p>
+                        </div>
+
+                    </div>
+                    <div class="droite">
+                        <!-- FORMULAIRE -->
+                        <h2 class="titreform">
+                            Restons en contact
+                        </h2>
+                        <form>
+                            <div class="firstLine"><input class="nom" type="text" placeholder="Votre nom*">
+                                <input type="text" class="mail" placeholder="Votre e-mail*">
+                            </div>
+                            <div class="scndLine"><input type="text" class="num"
+                                    placeholder="Votre numéro de téléphone*">
+                                <input type="text" class="sujet" placeholder="Sujet*">
+                            </div>
+                            <textarea name="Message" id="Message" class="mess" placeholder="Message*"></textarea>
+                            <div class="boutonjules">
+                                <a href="" class="envoyerJules">ENVOYER</a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="droite">
-                    <!-- FORMULAIRE -->
-                    <h2 class="titreform">
-                        Restons en contact
-                    </h2>
-                    <form>
-                        <div class="firstLine"><input class="nom" type="text" placeholder="Votre nom*">
-                            <input type="text" class="mail" placeholder="Votre e-mail*">
+                <!-- MAP DE L'HÔTEL -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9257942078125!2d2.2877635000000005!3d48.8596254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ffd263c31ab%3A0x63412f8de4cda1b9!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1678267333560!5m2!1sfr!2sfr"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- FOOTER -->
+                <div class="basdepagejules">
+                    <div class="footerGauchejules">
+                        <h2 class="proposjules">
+                            A propos de notre hôtel
+                        </h2>
+                        <p class="textproposjules">
+                            Le seul hôtel 5 étoiles de Paris. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ipsum
+                            in
+                            laborum perferendis optio, itaque vel asperiores excepturi dolorum repellat eos aliquid,
+                            soluta
+                            amet
+                            reprehenderit illum? Voluptatibus mollitia porro aspernatur nesciunt! Lorem ipsum dolor sit
+                            amet
+                            consectetur adipisicing elit. Minima, delectus possimus? Magni non est, provident cupiditate
+                            esse
+                            ipsa
+                            sint aliquid temporibus, reprehenderit deleniti inventore nisi rerum nobis aliquam sapiente
+                            quia!
+                        </p>
+                    </div>
+                    <div class="footerDroitejules">
+                        <h2 class="contactjules">
+                            Contact
+                        </h2>
+                        <p class="lieujules">
+                            23 avenue des Nations Unies<br>75001 Paris
+                        </p>
+                        <p class="telBasjules">
+                            <i class="flaticon-call"></i><a class="numBasjules" href="tel:+33320010203">03 20 01 02
+                                03</a>
+                        </p>
+
+                        <a class="mailBasjules" href="mailto:info@ducsman-group.com">info@ducsman-group.com</a><br><br>
+                        <div class="emojijules">
+                            <a href="https://instagram.com"><i class="ti-instagram"> </i></a>
+                            <a href="https://twitter.com"><i class="ti-twitter-alt"> </i></a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="flaticon-youtube"> </i></a>
+                            <a href="https://facebook.com"><i class="ti-facebook"> </i></a>
+                            <a href="https://pinterest.com"><i class="ti-pinterest-alt"> </i></a>
                         </div>
-                        <div class="scndLine"><input type="text" class="num" placeholder="Votre numéro de téléphone*">
-                            <input type="text" class="sujet" placeholder="Sujet*">
-                        </div>
-                        <textarea name="Message" id="Message" class="mess" placeholder="Message*"></textarea>
-                        <div class="boutonjules">
-                            <a href="" class="envoyerJules">ENVOYER</a>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
-            <!-- MAP DE L'HÔTEL -->
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9257942078125!2d2.2877635000000005!3d48.8596254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ffd263c31ab%3A0x63412f8de4cda1b9!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1678267333560!5m2!1sfr!2sfr"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <!-- FOOTER -->
-            <div class="basdepagejules">
-                <div class="footerGauchejules">
-                    <h2 class="proposjules">
-                        A propos de notre hôtel
-                    </h2>
-                    <p class="textproposjules">
-                        Le seul hôtel 5 étoiles de Paris. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ipsum
-                        in
-                        laborum perferendis optio, itaque vel asperiores excepturi dolorum repellat eos aliquid,
-                        soluta
-                        amet
-                        reprehenderit illum? Voluptatibus mollitia porro aspernatur nesciunt! Lorem ipsum dolor sit
-                        amet
-                        consectetur adipisicing elit. Minima, delectus possimus? Magni non est, provident cupiditate
-                        esse
-                        ipsa
-                        sint aliquid temporibus, reprehenderit deleniti inventore nisi rerum nobis aliquam sapiente
-                        quia!
-                    </p>
-                </div>
-                <div class="footerDroitejules">
-                    <h2 class="contactjules">
-                        Contact
-                    </h2>
-                    <p class="lieujules">
-                        23 avenue des Nations Unies<br>75001 Paris
-                    </p>
-                    <p class="telBasjules">
-                        <i class="flaticon-call"></i><a class="numBasjules" href="tel:+33320010203">03 20 01 02 03</a>
-                    </p>
-
-                    <a class="mailBasjules" href="mailto:info@ducsman-group.com">info@ducsman-group.com</a><br><br>
-                    <div class="emojijules">
-                        <a href="https://instagram.com"><i class="ti-instagram"> </i></a>
-                        <a href="https://twitter.com"><i class="ti-twitter-alt"> </i></a>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="flaticon-youtube"> </i></a>
-                        <a href="https://facebook.com"><i class="ti-facebook"> </i></a>
-                        <a href="https://pinterest.com"><i class="ti-pinterest-alt"> </i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer class="jules">Mention Légales - Conditions générales de Ventes - Politique de confidentialité <span> - ©
-                Copyright 2023 - DucksMan Group</span></footer>
-    </main>
-    <script src="/js/menu-burger.js"></script>
+            <footer class="jules">Mention Légales - Conditions générales de Ventes - Politique de confidentialité <span>
+                    - ©
+                    Copyright 2023 - DucksMan Group</span></footer>
+        </main>
+        <script src="/js/menu-burger.js"></script>
+    </div>
 </body>
 
 </html>
