@@ -86,3 +86,30 @@
 .ti-pinterest-alt {
     color: #ffffff;
 }
+
+// @media screen and (max-width:400px) {
+//     .basdepagesaif {
+//         flex-direction: column;
+//     }
+// }
+
+// @media screen and (max-width:600px) {
+//     .basdepagesaif {
+//         flex-direction: column;
+//     }
+// }
+
+// @media screen and (max-width:768px) {
+//     .basdepagesaif {
+//         flex-direction: column;
+        
+//     }
+// }
+
+    @media all and (max-width:850px) {
+        .basdepagesaif {
+            flex-direction: column;
+            width: 350px;
+            margin-left:0%;
+        }
+    }
