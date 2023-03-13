@@ -25,7 +25,7 @@ html {
    padding-right: 4%; */
 }
 
-.boite {
+.boiteJules {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -40,6 +40,7 @@ html {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-left: 0%;
 
 }
@@ -230,4 +231,19 @@ iframe {
 
 .ti-pinterest-alt {
     color: $titreBlanc;
+}
+
+@media screen and (max-width:600px) {
+
+    .boiteJules {
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0%;
+        padding-right:0%;
+    }
+    .info {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }

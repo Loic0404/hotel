@@ -579,10 +579,18 @@ main {
         align-items: center;
     }
 
+    .restaurantTexte {
+        height: 200px;
+    }
+
     .bienEtre {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
+    }
+
+    .bienEtreTexte {
+        height: 200px;
     }
 
     .fitness {
@@ -591,28 +599,38 @@ main {
         align-items: center;
     }
 
+    .fitnessTexte {
+        height: 200px;
+    }
+
     .centreAqua {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
+    }
+
+    .centreAquaTexte {
+        height: 200px;
     }
 
     .options {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        height: 800px;
+        margin-left: 450px;
+        height: 850px;
+    }
+
+    .boxOption {
+        display: flex;
+        flex-direction: column;
+        height: 350px;
     }
 
     .servicesEnPlus {
         display: flex;
         margin-top: 50px;
-        justify-content: space-between;
     }
 
-    .titreService {
-        margin-left: 450px;
-    }
     .boxService1 {
         display: flex;
         flex-direction: column;
@@ -623,5 +641,19 @@ main {
         display: flex;
         flex-direction: column;
         margin-top: 180px;
+    }
+
+    .basdepageLoic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerGaucheLoic {
+        width: 500px;
+        margin-left: 250px;
+    }
+
+    .footerDroiteLoic {
+        margin-left: 250px;
     }
 }
