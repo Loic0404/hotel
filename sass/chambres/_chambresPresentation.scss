@@ -6,32 +6,35 @@
 }
 
 .test{
-    margin-left: 150px;
-    // margin-right: 100px;
-}
+    padding-left: 50px;
+    max-width: 50%;
+  }
 
-.flex{
+  .flex{
     background: rgb(29, 27, 27);
     display: flex;
-    flex-direction: row;
-    align-items:center;   
+    justify-content: center;
+    align-items:center;  
+    gap: 100px; 
 }
+
+
 .flex h2{
     color: white;
     text-transform: capitalize;
     font-family:'gilda display';
     font-size: 50px;
 
-
 }
-
 
 
 .flex2{
-    margin-right: 100px;
+    margin-right: 200px;
     min-width:20%;
 
 }
+
+
 .flex2 h2{
     height: 60px;
     color:white;
@@ -49,7 +52,6 @@
 
 .text2{
     text-align:start;
-    width: 70%;
     line-height: 40px;
     color: #8d8d8d;
 
@@ -58,3 +60,4 @@ i{
     color:#aa8453;
     margin-right:10px;
 }
+
