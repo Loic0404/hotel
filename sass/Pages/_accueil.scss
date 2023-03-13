@@ -37,9 +37,14 @@ h3 {
     font-family: $policeClassique;
 }
 
+body, aside, main, footer{
+    margin-right: 0;
+   
+}
 .mainLoic {
     display: flex;
     flex-direction: column;
+    overflow-y: hidden;
     margin-left: 20%;
     background-color: $backgroundColorMain;
 }
