@@ -50,6 +50,7 @@ iframe {
         padding-left: 0%;
         width: 100%;
     }
+
     .info {
         flex-direction: column;
         flex-wrap: wrap;
@@ -58,6 +59,7 @@ iframe {
     .grosseBoite {
         width: 200%;
         flex-direction: column;
+        margin-left: 20%;
     }
     body {
         background-color: $backgroundColorMain;
