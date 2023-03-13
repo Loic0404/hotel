@@ -137,3 +137,29 @@ textarea {
         gap: 25px;
     }
 }
+
+@media screen and (max-width:850px) {
+    form {
+        gap: 25px;
+    }
+    .nom {
+        width: 100%;
+    }
+    .mail {
+        width: 100%;
+    }
+    .num {
+        width: 100%;
+    }
+    .sujet {
+        width: 100%;
+    }
+    .firstLine {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .scndLine {
+        flex-direction: column;
+        gap: 25px;
+    }
+}

@@ -58,6 +58,7 @@ iframe {
     .grosseBoite {
         width: 200%;
         flex-direction: column;
+        margin-left: 20%;
     }
     body {
         background-color: $backgroundColorMain;
@@ -86,6 +87,7 @@ iframe {
     .grosseBoite {
         width: 200%;
         flex-direction: column;
+        margin-left: 20%;
     }
     body {
         background-color: $backgroundColorMain;
@@ -115,6 +117,39 @@ iframe {
     .grosseBoite {
         width: 200%;
         flex-direction: column;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    body {
+        background-color: $backgroundColorMain;
+    }
+    .basdepagejules {
+        flex-direction: column;
+    }
+    iframe {
+        margin-bottom: 50px;
+        margin-top: 75px;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+
+    .boiteJules {
+        margin-left: -13%;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .info {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .grosseBoite {
+        width: 200%;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-top: 5%;
     }
     body {
         background-color: $backgroundColorMain;
