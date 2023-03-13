@@ -13,6 +13,24 @@
 @import "./Base/base";
 @import "./Base/font";
 
+/* Import css Accueil */
+@import "./accueil/accueilPresentation";
+@import "./accueil/accueilChambres";
+@import "./accueil/accueilLiens";
+@import "./accueil/accueilOptions";
+@import "./accueil/accueilServices";
+@import "./accueil/accueilApropos";
+
+/* Import css Chambres */
+@import "./chambres/chambresPresentation";
+@import "./chambres/chambresEntete";
+@import "./chambres/chambresAccess";
+@import "./chambres/chambresBaspage";
+
+/* Import css Contact */
+@import "./contacts/contactInfo";
+@import "./contacts/contactBaspage";
+
 //importation des composants
 
 @import "./Composants/buttons";
@@ -23,12 +41,21 @@
 @import "./Layout/footer";
 @import "./Layout/form";
 @import "./Layout/header";
+@import "./Layout/menuburger";
+
 
 // Importation des pages
 
 @import "./Pages/accueil";
 @import "./Pages/chambres";
 @import "./Pages/contact";
+
+
+
+
+
+
+
 
 
 

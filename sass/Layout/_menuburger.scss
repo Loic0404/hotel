@@ -1,0 +1,32 @@
+//menu burger
+.ti-menu{
+ 
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10000;
+  }
+    
+    
+   
+    
+
+
+    @media screen and (max-width: 768px) {
+      #open-menu {
+        display: block;
+      }
+    
+      aside {
+        position: fixed;
+        top: 0;
+        left: 0;
+        // display: none; //A supprimer une fois le menu burger fini
+    
+        &.active {
+          display: block;
+        }
+      }
+    
+    }
