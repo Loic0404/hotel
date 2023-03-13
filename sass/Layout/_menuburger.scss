@@ -1,5 +1,5 @@
 //menu burger
-.ti-menu{
+#burger{
  
     display: none;
     position: absolute;
@@ -8,13 +8,19 @@
     z-index: 10000;
   }
     
+  aside {
+    height: auto;
+    width: 300px;
+    max-width: 100%;
+    z-index: 1000;
+  }
     
    
     
 
 
     @media screen and (max-width: 768px) {
-      #open-menu {
+      #burger {
         display: block;
       }
     
@@ -22,7 +28,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        // display: none; //A supprimer une fois le menu burger fini
+         display: none;
     
         &.active {
           display: block;
