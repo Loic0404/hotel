@@ -46,23 +46,3 @@
 .image2 {
     margin-top: 40px;
 }
-
-
-//  Média query
-
-@media (max-widht: 450px) {
-    body {
-        width: auto;
-    }
-
-    .presentation {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-    }
-
-    .images {
-        display: flex;
-        flex-direction: column;
-    }
-}
