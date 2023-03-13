@@ -1,21 +1,23 @@
 /* CSS pour la partie présentation */
 .presentation {
-    height: 600px;
+    width: auto;
+    // height: 600px;
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
     background-color: $backgroundColorMain;
+    margin-left: 200px;
 }
 
 .presentation img {
-    width: 50px;
+    width: 50%;
 }
 
 /* Mise en forme de la partie texte */
 
 .textes img {
-    width: 100px;
+    width: 40%;
 
 
 }
@@ -23,7 +25,7 @@
 .textes {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 70%;
 }
 
 /* Mise en forme de la partie avec les images */
@@ -35,8 +37,8 @@
 }
 
 .images img {
-    width: 300px;
-    height: 400px;
+    width: 20%;
+    
 }
 
 .image1 {
