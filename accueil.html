@@ -15,60 +15,68 @@
 <body>
 
     <!-- NAVBAR VERTICALE -->
-    <div class="nav">
-        <div class="etoile">
-            <i class="ti-star"></i>
-            <i class="ti-star"></i>
-            <i class="ti-star"></i>
-            <i class="ti-star"></i>
-            <i class="ti-star"></i>
-            <!-- Changer la class pour le flaticon star -->
-        </div>
-        <h1 class="titrenav">
-            DUCSMAN
-        </h1>
-        <p class="haut">
-            DORMEZ COMME JAMAIS
-        </p>
+    <img src="/images/burger.png" id="burger">
 
-        <ul class="lien">
-            <li><a href="accueil.html">ACCUEIL</a></li>
-            <li><a href="#">À PROPOS</a></li>
-            <li><a href="chambre.html">CHAMBRES & SUITES</a></li>
-            <li><a href="#">RESTAURANT</a></li>
-            <li><a href="#">CENTRE DE BIEN-ÊTRE</a></li>
-            <li><a href="#">ACTUALITE</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-        <!-- Changer la class pour le flaticon phone -->
-        <div class="numnav">
-            <i class="flaticon-call"></i>
-            <p class="infoNum"> Informations & Réservations<br><br>
-                <a class="telnav" href="tel:+33320010203">03 20 01 02 03</a>
+    <aside>
+    <div class="menu-burger">
+        <nav class="nav">
+            
+            
+            <div class="etoile">
+                <i class="ti-star"></i>
+                <i class="ti-star"></i>
+                <i class="ti-star"></i>
+                <i class="ti-star"></i>
+                <i class="ti-star"></i>
+                <!-- Changer la class pour le flaticon star -->
+            </div>
+            <h1 class="titrenav">
+                DUCSMAN
+            </h1>
+            <p class="haut">
+                DORMEZ COMME JAMAIS
             </p>
-        </div>
+            
+            <ul class="lien">
+                <li><a href="accueil.html">ACCUEIL</a></li>
+                <li><a href="#">À PROPOS</a></li>
+                <li><a href="chambre.html">CHAMBRES & SUITES</a></li>
+                <li><a href="#">RESTAURANT</a></li>
+                <li><a href="#">CENTRE DE BIEN-ÊTRE</a></li>
+                <li><a href="#">ACTUALITE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <!-- Changer la class pour le flaticon phone -->
+            <div class="numnav">
+                <i class="flaticon-call"></i>
+                <p class="infoNum"> Informations & Réservations<br><br>
+                    <a class="telnav" href="tel:+33320010203">03 20 01 02 03</a>
+                </p>
+            </div>
+        </nav> 
     </div>
-
-    <main>
-
+    </aside>
+    <main class="mainLoic">
         <div class="carrousel">
             <div id="content">
-
+                
             </div>
-            <img src="images/caroussel/fleche.png" class="bouton" id="g" alt="">
-            <img src="images/caroussel/fleche.png" class="bouton" id="d" alt="">
         </div>
-
+        <img src="images/caroussel/fleche.png" class="bouton" id="g" alt="">
+        <img src="images/caroussel/fleche.png" class="bouton" id="d" alt="">
+        
         <!-- Texte de la partie présentation -->
         <div class="texte">
-
-            <img src="images/etoiles.png" alt="Logo 5 étoiles">
-
-            <p>HOTEL DE LUXE DUCSMAN</p>
-
-            <h2>L'expérience du luxe</h2>
+                
+                
+                <img src="images/etoiles.png" alt="Logo 5 étoiles">
+                
+                <p>HOTEL DE LUXE DUCSMAN</p>
+                
+                <h2>L'expérience du luxe</h2>
+            
         </div>
-
+            
         <!-- Partie présentation -->
         <section class="presentation">
 
@@ -410,13 +418,13 @@
 
                 <p class="titreOption">Petit déjeuner</p>
 
-                <p><span class="prixOrange">30€</span>  / jour</p>
+                <p><span class="prixOrange">30€</span> / jour</p>
 
-                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="ti-check"> <span> Lorem ipsum dolor sit amet.</span></i>
 
-                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="ti-check"> <span> Lorem ipsum dolor sit amet.</span></i>
 
-                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="ti-close"> <span> Lorem ipsum dolor sit amet.</span></i>
 
             </div>
 
@@ -424,13 +432,13 @@
 
                 <p class="titreOption">Coffre-fort sécurisé</p>
 
-                <p><span class="prixOrange">15€</span>  / jour</p>
+                <p><span class="prixOrange">15€</span> / jour</p>
 
-                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="ti-check"> <span> Lorem ipsum dolor sit amet.</span></i>
 
-                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="ti-check"> <span> Lorem ipsum dolor sit amet.</span></i>
 
-                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="ti-close"> <span> Lorem ipsum dolor sit amet.</span></i>
 
             </div>
 
@@ -438,7 +446,7 @@
 
         <section class="servicesEnPlus">
 
-            <h2>Services en +</h2>
+            <h2 class="titreService">Services en +</h2>
 
             <div class="boxService1">
 
@@ -553,7 +561,7 @@
                 </p>
 
                 <a class="mailBasLoic" href="mailto:info@ducsman-group.com">info@ducsman-group.com</a><br><br>
-                
+
                 <div class="emojiLoic">
 
                     <a href=""><i class="ti-instagram"> </i></a>
@@ -561,20 +569,22 @@
                     <a href=""><i class="flaticon-youtube"> </i></a>
                     <a href=""><i class="ti-facebook"> </i></a>
                     <a href=""><i class="ti-pinterest-alt"> </i></a>
-                
+
                 </div>
 
             </div>
 
         </section>
 
-        <footer class="jules">Mention Légales - Conditions générales de Ventes - Politique de confidentialité <span> - © Copyright 2023 - DucksMan Group</span></footer>
+        <footer class="jules">Mention Légales - Conditions générales de Ventes - Politique de confidentialité <span> - ©
+                Copyright 2023 - DucksMan Group</span></footer>
 
 
     </main>
 
-
+    <script src="/js/carrousel.js"></script>
+    <script src="/js/menu-burger.js"></script>
 </body>
-<script src="/sass/Composants/carrousel.js"></script>
+
 
 </html>

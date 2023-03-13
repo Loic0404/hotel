@@ -1,0 +1,23 @@
+/* CSS pour la section options */
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    width: 1000px;
+    margin-left: 180px;
+    margin-top: 100px;
+    background-color: $backgroundColorMain;
+}
+
+.optionsTexte {
+    width: 300px;
+}
+
+.boxOption {
+    background-color: $backgroundColorOptions;
+    width: 350px;
+    height: 270px;
+    padding-top: 5px;
+    padding-left: 40px;
+}

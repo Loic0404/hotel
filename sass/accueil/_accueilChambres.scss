@@ -1,0 +1,134 @@
+/* CSS pour la présentation des chambres */
+
+.chambres {
+    background-color: $backgroundColorSectionChambre;
+    height: 1100px;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+
+/* Mise en forme du titre et texte */
+.texteChambres {
+    display: flex;
+    flex-direction: column;
+    color: $titreBlanc;
+    margin-left: 170px;
+}
+
+.boxChambre {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-around;
+    width: 850px;
+    margin-left: 170px;
+}
+
+/* Mise en forme de la box1 avec les 3 premières photos */
+.image3 {
+    width: 350px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chambreBox1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.prixBox1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 340px;
+    margin-left: 10px;
+    z-index: 2;
+    font-size: 90%;
+    color: $titreBlanc;
+    width: 200px;
+}
+
+.styleBox1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 360px;
+    margin-left: 10px;
+    z-index: 2;
+    font-size: 130%;
+    color: $titreBlanc;
+    width: 200px;
+}
+
+.reserverBox1 p {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 300px;
+    z-index: 2;
+    font-size: 130%;
+    color: $titreBlanc;
+    border: $titreBlanc solid 2px;
+    height: 120px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+}
+
+
+/* Mise en forme de la box2 avec les 2 dernières photos */
+.image4 {
+    width: 570px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+    margin-top: 540px;
+    background-color: $backgroundColorSectionChambre;
+}
+
+.chambreBox2 {
+    position: absolute;
+    z-index: 1;
+}
+
+.prixBox2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 230px;
+    margin-left: 15px;
+    z-index: 2;
+    font-size: 90%;
+    color: $titreBlanc;
+    width: 200px;
+}
+
+.styleBox2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 250px;
+    margin-left: 15px;
+    z-index: 2;
+    font-size: 130%;
+    color: $titreBlanc;
+    width: 200px;
+}
+
+.reserverBox2 p {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 520px;
+    z-index: 2;
+    font-size: 130%;
+    color: $titreBlanc;
+    border: $titreBlanc solid 2px;
+    height: 120px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+}

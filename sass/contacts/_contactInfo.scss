@@ -1,0 +1,106 @@
+.grosseBoite {   
+    background-color: $backgroundColorMain;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 80%;
+   /* padding-top: 2%;
+   padding-left: 6%;
+   padding-right: 4%; */
+   margin-left: 8%;
+}
+
+.boiteJules {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 80%;
+//    margin-left: 28%;
+   padding-top: 2%;
+   padding-left: 10%;
+   padding-right: 5%;
+   padding-bottom: 6%;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0%;
+
+}
+
+.gauche {
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.telinfo {
+    display: flex;
+    flex-direction: row;
+    font-size: $taillePoliceTexte;
+    color: $couleurTexte;
+    justify-content: space-evenly;
+    width: 240px;
+    line-height: 25px;
+}
+
+.tel {
+    color: $texteOrange;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.telinfo .flaticon-call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: $taillePoliceTitre;
+    color: $texteOrange;
+
+}
+
+.mailinfo {
+   display: flex;
+   flex-direction: row;
+   font-size: $taillePoliceTexte;
+   color: $couleurTexte;
+   justify-content: space-evenly;
+   width: 240px;
+   line-height: 25px;
+}
+
+.flaticon-envelope {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-size: $taillePoliceTitre;
+   color: $texteOrange;
+}
+
+.mailto {
+   color: $texteOrange;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: $taillePoliceTexte;
+}
+
+.adressinfo {
+   display: flex;
+   flex-direction: row;
+   font-size: $taillePoliceTexte;
+   color: $couleurTexte;
+   justify-content: space-evenly;
+   width: 240px;
+   line-height: 25px;
+}
+
+.flaticon-location-pin {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-size: $taillePoliceTitre;
+   color: $texteOrange;
+}

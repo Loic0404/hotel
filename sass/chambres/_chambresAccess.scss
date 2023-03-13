@@ -1,0 +1,61 @@
+.check1{
+     
+    // background: rgb(29, 27, 27);
+    display: flex;
+    margin-left: 25.5%;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 100px;
+}
+
+.check1 h2{
+    color: $titreBlanc;
+    padding-bottom: 25px;
+    font-family:'gilda display';
+}
+
+.check1 p{
+   color: $couleurTexte;
+   font-family:'Barlow' ;
+
+}
+
+.modification{
+    // background: rgb(29, 27, 27);
+    padding-left: 50px;
+    // padding-right: 600px;
+    line-height: 30px;
+    margin-left: 25.5%;
+}
+
+.modification h2{
+ color: white;
+ font-family:'gilda display';
+}
+
+.modification p{
+    color: #8d8d8d;
+    font-family:'Barlow' ;
+    padding-right:400px ;
+    
+}
+
+.link{
+    // background: rgb(29, 27, 27);
+    height: 200px;
+    margin-top: 70px;
+
+
+}
+/* pour modifier le bouton */
+.link a{
+    border: 1px solid rgb(59, 56, 56);
+    padding: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgb(59, 56, 56);
+    color: white;
+    font-family:'Barlow' ;
+    text-decoration: none;
+    
+}
