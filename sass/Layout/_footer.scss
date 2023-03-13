@@ -56,4 +56,14 @@ span {
         font-size: 12px;
     }     
 }
+
+@media screen and (max-width:768px) {
+    .jules {
+        flex-direction: column;
+        margin-left: -25%;
+        padding-left: 10%;
+        padding-right: 5%;
+        font-size: 12px;
+    }     
+}
 //////////////////////////////////////////////////////////////////////////
