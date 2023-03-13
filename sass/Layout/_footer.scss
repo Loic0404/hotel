@@ -44,7 +44,11 @@ span {
         padding-left: 10%;
         padding-right: 5%;
         font-size: 12px;
-    }     
+    } 
+    .footersaif {
+        flex-direction: column;
+        padding-right: 15%;
+    }    
 }
 
 @media screen and (max-width:600px) {
