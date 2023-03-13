@@ -9,8 +9,9 @@
 }
 
 html {
-
-   color: $couleurTexte;
+    font-family: $policeClassique;
+    h1, h2{font-family: $policeTitre;}
+    color: $couleurTexte;
 //    rgb(201, 196, 196);
    
 }
