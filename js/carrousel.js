@@ -8,7 +8,7 @@ document.body.onload = function () {
     for (i = 1; i <= nbr; i++) {
         div = document.createElement("div");
         div.className = "photo";
-        div.style.backgroundImage = "url('images/caroussel/img" + i + ".jpg')";
+        div.style.backgroundImage = "url('/images/caroussel/img" + i + ".jpg')";
         content.appendChild(div);
     }
     afficherMasquer();
